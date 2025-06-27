@@ -22,10 +22,17 @@
     font-size: 16px;
     border: none;
     background: none;
+    color: black
 }
 
 .btn>i {
     font-size: 16px;
+}
+
+.btn-primary {
+    background-color: var(--bg-dark);
+    color: white;
+    border-radius: 10px;
 }
 
 .btn-secondary {
@@ -36,7 +43,7 @@
 
 .btn-outline-secondary {
 
-    border: 1px solid #3e3e3e;
+    border: 1px solid #c4c4c4;
     border-radius: 10px;
     margin: 20px 0;
 }

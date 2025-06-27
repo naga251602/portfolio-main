@@ -27,7 +27,15 @@
     margin-top: 30px;
 }
 
-.hero-social-section>i {
+.hero-social-section>a {
+    color: black;
+}
+
+.hero-social-section>a>i {
     font-size: 25px;
     margin-right: 50px;
+}
+
+.blue {
+    color: blue;
 }

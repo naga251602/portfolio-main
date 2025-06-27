@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav | Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/index.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    {% include "navbar.component.html" %}
+    <main class="section">
+        <h3 class="section-heading">Admin Pannel</h3>
+    </main>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/works.module.css')}}">
+    <footer class="footer bg-dark">
+        <h3>Contact</h3>
+        <p style="margin: 10px 0;">Feel free to reach out to me via email or LinkedIn for collaboration or queries.
+        </p>
+        <p>Email: <a href="mailto:gaurav02@gmail.com">gaurav02@gmail.com</a></p>
+
+        <p>LinkedIn: <a
+                href="https://www.linkedin.com/in/gaurav-nagalapuram-vekataramanan/">https://www.linkedin.com/in/gaurav-nagalapuram-vekataramanan/</a>
+        </p>
+        <section class="hero-social-section">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-twitter"></i>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>
