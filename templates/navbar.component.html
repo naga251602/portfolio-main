@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='/css/navbar.module.css')}}">
+
+<nav class="nav">
+    <h2 class="nav-logo">Gaurav Nagalapuram</h2>
+    <button id="menubtn">
+        <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-links">
+        {% for page in pages%}
+        <li class="nav-link"> {{page}}</li>
+        {% endfor %}
+        <li class="nav-link"> <button class="btn btn-secondary">
+                Github
+                <i class="fab fa-github" style="margin-left: 5px;"></i>
+            </button></li>
+    </ul>
+</nav>
+
+<script src="{{url_for('static', filename='/js/navbar.module.js')}}"></script>

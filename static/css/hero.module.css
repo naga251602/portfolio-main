@@ -1,0 +1,33 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px 10%;
+
+}
+
+.hero-sub-heading {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero-heading {
+    font-size: 32px;
+}
+
+.hero-sub-text {
+    max-width: 600px;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+
+.hero-social-section {
+    margin-top: 30px;
+}
+
+.hero-social-section>i {
+    font-size: 25px;
+    margin-right: 50px;
+}
